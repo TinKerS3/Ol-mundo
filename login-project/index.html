@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login or create account</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a3327d55c8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="container">
+    <div id="login">
+      <div id="sign-in">
+        <div id="welcome">
+          <i class="fa-solid fa-arrow-right-to-bracket"></i>
+          <h2>Welcome!</h2>
+          <span>Sign in to your account</span>
+        </div><!--boas-vindas-->
+        <form action="">
+          <label for="name">Name</label>
+          <div class="inputs-background">
+            <input type="text" placeholder="enter your name" id="name" class="inputs" />
+            <i class="fa-solid fa-user" class="input-icon"></i>
+          </div>
+          <label for="password">Password</label>
+          <div class="inputs-background">
+            <input type="text" placeholder="enter password" id="password" class="inputs" />
+            <i class="fa-solid fa-eye" class="input-icon"></i>
+          </div>
+        </form>
+        <div id="others-btn">
+          <button>Remenber me?</button>
+          <a href="#">forgot password?</a>
+        </div>
+        <div id="sign-in-account">
+          <button>Sign in</button>
+          <i class="fa-solid fa-arrow-right"></i>
+        </div>
+      </div>
+    </div>
+    <div id="createAccount">
+      <div id="create">
+        <div id="create-welcome">
+          <i class="fa-sharp fa-solid fa-circle-user" style="color: #ffffff"></i>
+          <h2>Create account</h2>
+        </div>
+        <form action="">
+          <label for="create-name">Name</label>
+          <div class="inputs-background inputs-create">
+            <input type="text" placeholder="enter your name" id="create-name" class="inputs input-create" />
+            <i class="fa-solid fa-user" class="input-icon icon-create"></i>
+          </div>
+          <label for="email">E-mail</label>
+          <div class="inputs-background inputs-create">
+            <input type="text" placeholder="enter your e-mail" id="email" class="inputs input-create" />
+            <i class="fa-solid fa-envelope" class="input-icon icon-create"></i>
+          </div>
+          <label for="create-password">Password</label>
+          <div class="inputs-background inputs-create">
+            <input type="text" placeholder="enter a password" id="create-password" class="inputs input-create" />
+            <i class="fa-solid fa-lock" class="input-icon icon-create"></i>
+          </div>
+        </form>
+        <div id="button-create">
+          <span>Create</span>
+          <i class="fa-solid fa-arrow-right"></i></i>
+        </div>
+        <hr />
+        <div id="social">
+          <p>Or create account using social media!</p>
+          <a href="#"><i class="fa-brands fa-facebook" style="color: #ffffff"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter" style="color: #ffffff"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

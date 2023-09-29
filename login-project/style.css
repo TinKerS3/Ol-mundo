@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+label{
+    font-size: 13px;
+}
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+#login{
+    width: 400px;
+    margin: 10px;
+    box-shadow: 0px 4px 10px #e7e7e7;
+}
+#welcome{
+    text-align: center;
+}
+#welcome i{
+    font-size: 30px;
+    color: rgb(0, 110, 255);
+}
+#welcome span{
+    font-weight: 300;
+    color: rgb(121, 121, 121);
+}
+#sign-in{
+    font-weight: 300;
+}/* aqui termina o estilo do welcome*/
+
+.inputs{
+    border: none;
+    outline: none;
+    background-color: rgb(238, 238, 238);
+    max-width: 370px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.inputs-background{
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    justify-content: space-between;
+}
+.inputs-background i{
+    margin: 10px;
+    cursor: pointer;
+    color: rgb(0, 110, 255);
+}
+#others-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+#others-btn button{
+    border: none;
+    background-color: white;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+#sign-in-account{
+    background-color: rgb(0, 110, 255);
+    padding: 10px;
+    width: 140px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin: 30px 0;
+    border-radius: 2px;
+    text-align: center;
+    cursor: pointer;
+}
+#sign-in-account button{
+    border: none;
+    background-color: rgb(0, 110, 255);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    cursor: pointer;
+}/*aqui termina o estilo dos inputs e welcome */
+
+#createAccount{
+    color: rgb(255, 255, 255);
+    max-width: 400px;
+    background-image: linear-gradient(to right bottom, rgb(119, 0, 255), rgb(255, 0, 98));
+}
+#create{
+    margin: 40px;
+}
+#create-welcome{
+    text-align: center;
+    color: #ffffff;
+    margin: 20px 10px;
+}
+#create-welcome i{
+    font-size: 40px;
+}
+#button-create{
+    width: 140px;
+    height: 40px;
+    margin-top: 40px;
+    background-color: #ffffff;
+    margin: 25px 0;
+    color: rgb(32, 32, 32);
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    border-radius: 2px;
+    align-items: center;
+    font-weight: 400;
+}
+#button-create i{
+    margin-left: 10px;
+
+}
+hr{
+    margin: 0 -25px;
+}
+#social{
+    margin-top: 25px;
+    text-align: center;
+}
+#social i{
+    padding: 3px;
+    font-size: 19px;
+}
